@@ -1,0 +1,223 @@
+*{
+    margin: 0;    
+    padding: 0;      
+    
+}
+header{
+background-color: rgba(131, 43, 212, 0.336);
+padding: 0;
+height: 1%;
+display: flex;
+justify-content:space-between;
+}
+#logotipo{
+height: 13vh;
+width: 42vh;
+padding: 10%;
+}
+.opciones {
+    margin: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .opciones li a{
+    margin: 0 10px; 
+    padding: 15px 15px;
+    top: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px 2px 2px #0000007e;
+  }
+  .opciones li a:hover{
+    font-weight: bold;
+    background-color: rgba(255, 196, 0, 0.842);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);  /*destello blanco */
+    transition: box-shadow 0.3s ease-in-out; 
+      
+  }
+  #banner {
+    
+    width: 100%;
+    height: 78.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+#banner::after{
+    width: 100%;
+    height: 78.2vh;
+    content:'';
+    position: absolute;
+    top: 146px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+    z-index: 6;
+}
+#banner video{
+    width: 100%;
+    height: 78.2vh;
+    position: absolute;
+    top: 146px;
+    left: 0;
+    z-index: 4;
+    object-fit: cover;
+    font-family: "object-fit: cover";
+}
+#banner .texto h1{
+    position: relative;
+    font-size: 80px;
+    z-index:20;
+    text-align: center;
+    color: white;
+    font-family: 'Concert One', cursive;
+    padding: 20px;
+}
+#banner .texto p{
+    padding: auto;
+    position: relative;
+    font-size: 30px;
+    z-index:20;
+    text-align: center;
+    color: white;
+    font-family: 'Sono', sans-serif;
+}
+
+.sec1{
+    width: 150vh;
+    height: 70vh;
+    background-color: white;
+    justify-content: absolutr;
+    padding: 100px;
+
+}
+.contenedor{
+background-color: darkorange;
+width: 170vh;
+height: 70vh;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+float: left;
+}
+img{
+    width: 80vh;
+    height: 80vh;
+}
+
+.Textoquienessomos h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+}
+.Textoquienessomos p{
+    font-size: 30px;
+}
+.sectarjetas{
+    width: 85%;
+    height: 100vh;
+    background-image: url(/img/Huesos.jpg);
+    justify-content: absolute;
+    padding: 100px;
+}
+.container-card{
+	width: 90%;
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+    padding: 50px;
+}
+
+.title-cards{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 2px;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+	margin-top: 5px;
+	text-align: center;
+    color: white;
+    background-color: rgb(4, 0, 43);
+    border-radius: 10px;
+    width: 60%;
+    border: 4px solid white;
+}
+
+.card{
+	width: 90%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:rgba(130, 43, 212, 0.932);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.979);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 10px 10px 20px rgba(245, 200, 3, 0.986);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 300px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+    font-size: 25px;
+
+    font-family: 'Sono', sans-serif;
+}
+.card .contenido-card p{
+    padding: 10px;
+	color: #000000;
+	font-size: 18px;
+}
+footer{
+    background-color: rgba(0, 4, 59, 0.877);
+    justify-content: space-between;
+    display: flex;
+    margin:0;
+    padding: 1px;
+}
+.imgfooter{
+    padding: 10px;
+    left: 10px;
+    width: 50%;
+    height: 70%;
+    margin: 0;
+}
+.listaname {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  li{
+    margin: 0 2px; 
+    padding: 20px 20px;
+    top: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px 2px 2px #0000007e;
+  }
+
+  

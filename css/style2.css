@@ -1,0 +1,145 @@
+*{
+    margin: 0;    
+    padding: 0;      
+    
+}
+header{
+background-color: rgba(131, 43, 212, 0.336);
+padding: 20px;
+height: 4%;
+display: flex;
+justify-content:space-between;
+}
+#logotipo{
+height: 13vh;
+width: 40vh;
+padding: 3%;
+}
+.opciones {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .opciones li a{
+    margin: 0 3px; 
+    padding: 15px 15px;
+    top: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px 2px 2px #0000007e;
+  }
+  .opciones li a:hover{
+    font-weight: bold;
+    background-color: rgba(255, 196, 0, 0.842);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);  /*destello blanco */
+    transition: box-shadow 0.3s ease-in-out; 
+      
+  }
+      
+  .contenido{
+    width: 85%;
+    height: 100vh;
+    background-color: rgba(0, 165, 74, 0.568);
+    justify-content: absolute;
+    padding: 100px;
+  }
+
+  .sec1{
+    width: 85%;
+    height: 60vh;
+    background-image: url(/img/huellasazul.jpg);
+    justify-content: absolute;
+    padding: 100px;
+  }
+  .sec2{
+    width: 85%;
+    height: 70vh;
+    background-image: url(/img/huellasazul.jpg);
+    justify-content: center;
+    padding: 100px;
+  }
+  .texto1{
+    margin-top: -90px;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(4, 0, 43);
+    border-radius: 10px;
+    width: 60%;
+    border: 4px solid white;
+  }
+  .uno{
+    background-color: rgb(255, 188, 5);
+    border-radius: 40px;
+    height: 30%;
+    width: 80%;
+    padding: 2%;
+    margin-left: 8%;
+  }
+  .texto2{
+    padding: 1%;
+    font-size: 5vh;
+    font-family: 'Concert One', cursive;    
+  }
+  .parrafo{
+    font-size: 3vh;
+  }
+  .dos{
+    background-color: rgb(255, 188, 5);
+    border-radius: 40px;
+    height: 2   0%;
+    width: 80%;
+    padding: 2%;
+    margin-left: 8%;
+  }
+  .texto3{
+    padding: 1%;
+    font-size: 5vh;
+    font-family: 'Concert One', cursive;    
+  }
+  footer{
+    background-color: rgba(0, 4, 59, 0.877);
+    justify-content: space-between;
+    display: flex;
+    margin:0;
+    padding: 1px;
+}
+.imgfooter{
+    padding: 10px;
+    left: 10px;
+    width: 50%;
+    height: 70%;
+    margin: 0;
+}
+.listaname {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  li{
+    margin: 0 2px; 
+    padding: 20px 20px;
+    top: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px 2px 2px #0000007e;
+  }
+
+  iframe{
+    padding: 10px;
+  }

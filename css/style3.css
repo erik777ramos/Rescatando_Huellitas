@@ -1,0 +1,103 @@
+*{
+    margin: 0;    
+    padding: 0;      
+    
+}
+header{
+background-color: rgba(131, 43, 212, 0.336);
+padding: 0px;
+height: 3%;
+display: flex;
+justify-content:space-between;
+}
+#logotipo{
+height: 20vh;
+width: 50vh;
+padding: 5%;
+}
+.opciones {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .opciones li a{
+    margin: 0 10px; 
+    padding: 10px 10px;
+    top: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px 2px 2px #0000007e;
+  }
+  .opciones li a:hover{
+    font-weight: bold;
+    background-color: rgba(255, 196, 0, 0.842);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);  /*destello blanco */
+    transition: box-shadow 0.3s ease-in-out; 
+      
+  }
+.formulariologin{
+    width: 100%;
+    height: 80h;
+    background-image: url(/img/HUELLAS1.jpg);
+    justify-content: absolute;
+    padding: 0;
+}   
+.Form-conatiner{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: rgb(110, 16, 199);
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: solid 10px rgb(0, 1, 54);
+    width: 400px;
+    padding: 20px;
+    gap: 10px;
+    color: white;
+}
+footer{
+  background-color: rgba(0, 4, 59, 0.877);
+  justify-content: space-between;
+  display: flex;
+  margin:0;
+  padding: 1px;
+}
+.imgfooter{
+  padding: 10px;
+  left: 10px;
+  width: 50%;
+  height: 70%;
+  margin: 0;
+}
+.listaname {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+li{
+  margin: 0 2px; 
+  padding: 20px 20px;
+  top: 0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Shantell Sans', cursive;
+  text-shadow: 2px 2px 2px #0000007e;
+}
